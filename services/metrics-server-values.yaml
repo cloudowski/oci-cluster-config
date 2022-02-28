@@ -1,0 +1,3 @@
+# FIXME: Need to have a valid certificate for kubelets
+args:
+    - --kubelet-insecure-tls

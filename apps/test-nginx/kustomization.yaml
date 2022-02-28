@@ -1,0 +1,7 @@
+helmCharts:
+  - name: nginx
+    includeCRDs: false
+    valuesFile: values.yaml
+    releaseName: test-nginx
+    version: "9.9.0"
+    repo: https://charts.bitnami.com/bitnami

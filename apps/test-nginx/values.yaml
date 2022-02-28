@@ -1,0 +1,13 @@
+image:
+    repository: library/nginx
+    tag: 1.21-alpine
+
+ingress:
+    enabled: true
+    hostname: test-nginx.example.com
+
+service:
+    type: ClusterIP
+
+containerPorts:
+    http: 80
